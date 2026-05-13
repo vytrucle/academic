@@ -1,0 +1,724 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Truc Vy Le | Academic Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#about" data-page="about">Truc Vy Le</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a class="active" href="#about" data-page="about">about</a>
+          <a href="#blogs" data-page="blogs">blogs</a>
+          <a href="#publications" data-page="publications">publications</a>
+          <a href="#metrics" data-page="metrics">metrics</a>
+          <a href="#cv" data-page="cv">CV</a>
+          <label class="site-search" aria-label="Search website">
+            <input type="search" id="site-search" placeholder="search">
+          </label>
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+            <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21 14.5A8.5 8.5 0 0 1 9.5 3 7 7 0 1 0 21 14.5z"></path>
+            </svg>
+            <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="section profile-section active-section" id="about" data-section="about">
+        <div class="profile-copy">
+          <h1><strong>Truc Vy</strong> Le</h1>
+          <p>
+            I am a psychology graduate from Vietnam. I graduated from
+            <a class="academic-link" href="https://hcmue.edu.vn/en/">Ho Chi Minh City University of Education</a>,
+            Vietnam, with a B.A. in Psychology with very good distinction. I have
+            four years of experience working as a research assistant at the
+            <a class="academic-link" href="#">TCVL Lab</a> under the supervision of
+            <a class="academic-link" href="#">Dr. Vinh-Long Tran-Chi</a>, where I
+            have been involved in psychological and mental health research projects,
+            especially research on adverse childhood experiences (ACEs) and mental
+            health.
+          </p>
+          <p>
+            In addition to my research experience, I have two years of clinical
+            experience in psychological assessment and counseling. My work has
+            included supporting incarcerated individuals as well as inpatient and
+            outpatient populations experiencing anxiety, depression, and
+            stress-related difficulties, alongside training in psychological
+            assessment tools and cognitive-behavioral counseling practice.
+          </p>
+          <p>
+            My long-term goal is to become a clinical neuropsychologist. My research
+            interests focus on adverse childhood experiences (ACEs), cognitive
+            functioning, and the neuropsychological mechanisms underlying the
+            relationship between early adversity and mental health.
+          </p>
+
+          <div class="news-block">
+            <div class="section-heading">
+              <h2>News</h2>
+            </div>
+            <ul class="news-list">
+              <li>
+                <time datetime="2026-05">May 2026</time>
+                <span>Admitted to the Master's program in Psychology, Neuroscience, and Human Sciences at the <a class="academic-link" href="https://en.unipv.it/">University of Pavia</a>, Italy.</span>
+              </li>
+              <li>
+                <time datetime="2026-04">Apr 2026</time>
+                <span>Started as a Research Assistant (Quantitative Fieldwork) at <a class="academic-link" href="https://depocen.org/en/about/">Development and Policies Research Center (DEPOCEN)</a>, contract position.</span>
+              </li>
+              <li>
+                <time datetime="2024-05">May 2024</time>
+                <span>Successfully defended the undergraduate thesis "Attitudes Toward Seeking Professional Psychological Help Among Students with Adverse Childhood Experiences in Ho Chi Minh City" (9/10) and graduated with very good distinction.</span>
+              </li>
+              <li>
+                <time datetime="2023-04">Apr 2023</time>
+                <span>Became Psychology Academic Content Leader at <a class="academic-link" href="https://www.facebook.com/InPsychOut">InPsychOut</a>.</span>
+              </li>
+              <li>
+                <time datetime="2023-01">Jan 2023</time>
+                <span>Started a clinical psychology internship at <span class="org-name">Ho Chi Minh City Regional Center of Forensic Psychiatry</span>.</span>
+              </li>
+              <li>
+                <time datetime="2022-04">Apr 2022</time>
+                <span>Joined <span class="org-name">TCVL Lab</span> as a research assistant.</span>
+              </li>
+              <li>
+                <time datetime="2022-03">Mar 2022</time>
+                <span>Joined <a class="academic-link" href="https://www.facebook.com/InPsychOut">InPsychOut</a>'s mental health awareness project as a psychology academic content collaborator.</span>
+              </li>
+              <li>
+                <time datetime="2020-10">Oct 2020</time>
+                <span>Admitted to the Psychology program at <a class="academic-link" href="https://hcmue.edu.vn/en/">Ho Chi Minh City University of Education</a>, Vietnam.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="social-links" aria-label="Academic accounts">
+            <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=Vy+Truc+Le" aria-label="Google Scholar" title="Google Scholar">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/googlescholar.svg" alt="">
+            </a>
+            <a href="https://www.researchgate.net/profile/Vy-Le-121" aria-label="ResearchGate" title="ResearchGate">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/researchgate.svg" alt="">
+            </a>
+            <a href="https://orcid.org/0009-0002-1008-2380" aria-label="ORCID" title="ORCID">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/orcid.svg" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/vy-truc-le-a10155276/" aria-label="LinkedIn" title="LinkedIn">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/linkedin.svg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <aside class="profile-card" aria-label="Profile details">
+          <div class="avatar" role="img" aria-label="Profile avatar placeholder">
+            <img src="vyby-bio.jpg" alt="Portrait of Truc Vy Le">
+          </div>
+          <div class="profile-meta">
+            <p>Ho Chi Minh City, Vietnam</p>
+            <p>Psychology graduate and research assistant</p>
+            <p>vytrucle.judy@gmail.com</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section" id="blogs" data-section="blogs">
+        <div class="section-heading">
+          <div>
+            <h2>Blogs</h2>
+            <p class="section-kicker">Selected essays, reflections, and public-facing psychology writing.</p>
+          </div>
+        </div>
+        <div class="blog-filter-panel" aria-label="Blog filters">
+          <div class="publication-filter-group">
+            <span>Source</span>
+            <button class="filter-button active" type="button" data-blog-filter-group="source" data-blog-filter="all">all</button>
+            <button class="filter-button" type="button" data-blog-filter-group="source" data-blog-filter="inpsychout">InPsychOut</button>
+            <button class="filter-button" type="button" data-blog-filter-group="source" data-blog-filter="tramdoc">Trạm Đọc</button>
+          </div>
+          <div class="publication-filter-group">
+            <span>Topic</span>
+            <button class="filter-button active" type="button" data-blog-filter-group="topic" data-blog-filter="all">all</button>
+            <button class="filter-button" type="button" data-blog-filter-group="topic" data-blog-filter="aces">ACEs</button>
+            <button class="filter-button" type="button" data-blog-filter-group="topic" data-blog-filter="school">school</button>
+            <button class="filter-button" type="button" data-blog-filter-group="topic" data-blog-filter="social">social media</button>
+            <button class="filter-button" type="button" data-blog-filter-group="topic" data-blog-filter="clinical">clinical</button>
+            <button class="filter-button" type="button" data-blog-filter-group="topic" data-blog-filter="literature">literature</button>
+          </div>
+        </div>
+        <div class="blog-list">
+          <article class="blog-item" data-source="inpsychout" data-topic="aces">
+            <div class="blog-preview">
+              <iframe
+                title="InPsychOut Facebook post preview - Gratitude and childhood adversity"
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInPsychOut%2Fposts%2F882677067193274%2F&show_text=false&width=500"
+                loading="lazy"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+              </iframe>
+            </div>
+            <div class="pub-badge">InPsychOut Blog</div>
+            <h3>The role of gratitude among individuals affected by childhood maltreatment (Vai trò của lòng biết ơn ở những cá nhân bị ảnh hưởng từ sự ngược đãi thời thơ ấu)</h3>
+            <p class="authors"><strong>Writer:</strong> Vy Truc Le.</p>
+            <p class="blog-source">Source and copyright: InPsychOut.</p>
+            <div class="pub-links">
+              <a href="https://www.facebook.com/InPsychOut/posts/vai-tr%C3%B2-c%E1%BB%A7a-l%C3%B2ng-bi%E1%BA%BFt-%C6%A1n-%E1%BB%9F-nh%E1%BB%AFng-c%C3%A1-nh%C3%A2n-b%E1%BB%8B-%E1%BA%A3nh-h%C6%B0%E1%BB%9Fng-t%E1%BB%AB-s%E1%BB%B1-ng%C6%B0%E1%BB%A3c-%C4%91%C3%A3i-th%E1%BB%9Di-th%C6%A1-%E1%BA%A5/882677067193274/">read post</a>
+            </div>
+          </article>
+          <article class="blog-item" data-source="inpsychout" data-topic="school">
+            <div class="blog-preview">
+              <iframe
+                title="InPsychOut Facebook post preview - Social comparison in classrooms"
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInPsychOut%2Fposts%2F863846739076307%2F&show_text=false&width=500"
+                loading="lazy"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+              </iframe>
+            </div>
+            <div class="pub-badge">InPsychOut Blog</div>
+            <h3>Student comparison with classmates through the lens of social comparison theory (Sự so sánh giữa học sinh với bạn bè tại lớp học dưới góc nhìn của thuyết so sánh)</h3>
+            <p class="authors"><strong>Writer:</strong> Vy Truc Le.</p>
+            <p class="blog-source">Source and copyright: InPsychOut.</p>
+            <div class="pub-links">
+              <a href="https://www.facebook.com/InPsychOut/posts/s%E1%BB%B1-so-s%C3%A1nh-gi%E1%BB%AFa-h%E1%BB%8Dc-sinh-v%E1%BB%9Bi-b%E1%BA%A1n-b%C3%A8-t%E1%BA%A1i-l%E1%BB%9Bp-h%E1%BB%8Dc-d%C6%B0%E1%BB%9Bi-g%C3%B3c-nh%C3%ACn-c%E1%BB%A7a-thuy%E1%BA%BFt-so-s%C3%A1nh/863846739076307/">read post</a>
+            </div>
+          </article>
+          <article class="blog-item" data-source="inpsychout" data-topic="social">
+            <div class="blog-preview">
+              <iframe
+                title="InPsychOut Facebook post preview - FOMO and social media"
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInPsychOut%2Fposts%2F846393510821630%2F&show_text=false&width=500"
+                loading="lazy"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+              </iframe>
+            </div>
+            <div class="pub-badge">InPsychOut Blog</div>
+            <h3>The close relationship between FOMO and social media engagement (Mối liên hệ chặt chẽ giữa FOMO và việc tham gia mạng xã hội)</h3>
+            <p class="authors"><strong>Writer:</strong> Vy Truc Le.</p>
+            <p class="blog-source">Source and copyright: InPsychOut.</p>
+            <div class="pub-links">
+              <a href="https://www.facebook.com/InPsychOut/posts/m%E1%BB%91i-li%C3%AAn-h%E1%BB%87-ch%E1%BA%B7t-ch%E1%BA%BD-gi%E1%BB%AFa-fomo-v%C3%A0-vi%E1%BB%87c-tham-gia-m%E1%BA%A1ng-x%C3%A3-h%E1%BB%99is%E1%BB%B1-ph%C3%A1t-tri%E1%BB%83n-c%E1%BB%A7a-m%E1%BA%A1n/846393510821630/">read post</a>
+            </div>
+          </article>
+          <article class="blog-item" data-source="inpsychout" data-topic="clinical">
+            <div class="blog-preview">
+              <iframe
+                title="InPsychOut Facebook post preview - Suicide prevention in Asian countries"
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInPsychOut%2Fposts%2F796463845814597%2F&show_text=false&width=500"
+                loading="lazy"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+              </iframe>
+            </div>
+            <div class="pub-badge">InPsychOut Blog</div>
+            <h3>Suicide prevention in Asian countries (Vấn đề phòng ngừa tự sát tại các quốc gia châu Á)</h3>
+            <p class="authors"><strong>Writer:</strong> Vy Truc Le.</p>
+            <p class="blog-source">Source and copyright: InPsychOut.</p>
+            <div class="pub-links">
+              <a href="https://www.facebook.com/InPsychOut/posts/v%E1%BA%A5n-%C4%91%E1%BB%81-ph%C3%B2ng-ng%E1%BB%ABa-t%E1%BB%B1-s%C3%A1t-t%E1%BA%A1i-c%C3%A1c-qu%E1%BB%91c-gia-ch%C3%A2u-%C3%A1t%E1%BB%B1-s%C3%A1t-l%C3%A0-m%E1%BB%99t-v%E1%BA%A5n-%C4%91%E1%BB%81-nghi%C3%AAm-tr%E1%BB%8Dn/796463845814597/">read post</a>
+            </div>
+          </article>
+          <article class="blog-item" data-source="inpsychout" data-topic="clinical">
+            <div class="blog-preview">
+              <iframe
+                title="InPsychOut Facebook post preview - Family meal frequency and child mental disorders"
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInPsychOut%2Fposts%2F777865221007793%2F&show_text=false&width=500"
+                loading="lazy"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+              </iframe>
+            </div>
+            <div class="pub-badge">InPsychOut Blog</div>
+            <h3>The role of family meal frequency in major mental disorders among children (Vai trò của tần suất bữa ăn gia đình đối với các rối loạn tâm thần chủ yếu ở trẻ)</h3>
+            <p class="authors"><strong>Writer:</strong> Vy Truc Le.</p>
+            <p class="blog-source">Source and copyright: InPsychOut.</p>
+            <div class="pub-links">
+              <a href="https://www.facebook.com/InPsychOut/posts/vai-tr%C3%B2-c%E1%BB%A7a-t%E1%BA%A7n-su%E1%BA%A5t-b%E1%BB%AFa-%C4%83n-gia-%C4%91%C3%ACnh-%C4%91%E1%BB%91i-v%E1%BB%9Bi-c%C3%A1c-r%E1%BB%91i-lo%E1%BA%A1n-t%C3%A2m-th%E1%BA%A7n-ch%E1%BB%A7-y%E1%BA%BFu-%E1%BB%9F-tr%E1%BA%BB/777865221007793/">read post</a>
+            </div>
+          </article>
+          <article class="blog-item" data-source="inpsychout" data-topic="clinical">
+            <div class="blog-preview">
+              <iframe
+                title="InPsychOut Facebook post preview - Psychologist burnout"
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInPsychOut%2Fposts%2F612227230904927%2F&show_text=false&width=500"
+                loading="lazy"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+              </iframe>
+            </div>
+            <div class="pub-badge">InPsychOut Blog</div>
+            <h3>The influence of personal factors on psychologist burnout (Sự ảnh hưởng của yếu tố cá nhân đến tình trạng kiệt sức của nhà tâm lý)</h3>
+            <p class="authors"><strong>Writer:</strong> Vy Truc Le.</p>
+            <p class="blog-source">Source and copyright: InPsychOut.</p>
+            <div class="pub-links">
+              <a href="https://www.facebook.com/InPsychOut/posts/s%E1%BB%B1-%E1%BA%A3nh-h%C6%B0%E1%BB%9Fng-c%E1%BB%A7a-y%E1%BA%BFu-t%E1%BB%91-c%C3%A1-nh%C3%A2n-%C4%91%E1%BA%BFn-t%C3%ACnh-tr%E1%BA%A1ng-ki%E1%BB%87t-s%E1%BB%A9c-c%E1%BB%A7a-nh%C3%A0-t%C3%A2m-l%C3%BDt%C3%ACnh-tr%E1%BA%A1ng/612227230904927/">read post</a>
+            </div>
+          </article>
+          <article class="blog-item" data-source="inpsychout" data-topic="school">
+            <div class="blog-preview">
+              <iframe
+                title="InPsychOut Facebook post preview - Peer pressure and body dissatisfaction"
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInPsychOut%2Fposts%2F708347797959536%2F&show_text=false&width=500"
+                loading="lazy"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+              </iframe>
+            </div>
+            <div class="pub-badge">InPsychOut Blog</div>
+            <h3>The influence of peer pressure on body dissatisfaction among women (Ảnh hưởng của áp lực đồng trang lứa đối với sự không hài lòng về cơ thể ở nữ giới)</h3>
+            <p class="authors"><strong>Writer:</strong> Vy Truc Le.</p>
+            <p class="blog-source">Source and copyright: InPsychOut.</p>
+            <div class="pub-links">
+              <a href="https://www.facebook.com/InPsychOut/posts/%E1%BA%A3nh-h%C6%B0%E1%BB%9Fng-c%E1%BB%A7a-%C3%A1p-l%E1%BB%B1c-%C4%91%E1%BB%93ng-trang-l%E1%BB%A9a-%C4%91%E1%BB%91i-v%E1%BB%9Bi-s%E1%BB%B1-kh%C3%B4ng-h%C3%A0i-l%C3%B2ng-v%E1%BB%81-c%C6%A1-th%E1%BB%83-%E1%BB%9F-n%E1%BB%AF-gi%E1%BB%9B/708347797959536/">read post</a>
+            </div>
+          </article>
+          <article class="blog-item" data-source="inpsychout" data-topic="aces">
+            <div class="blog-preview">
+              <iframe
+                title="InPsychOut Facebook post preview - ACEs and college students"
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInPsychOut%2Fposts%2F728471619280487%2F&show_text=false&width=500"
+                loading="lazy"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+              </iframe>
+            </div>
+            <div class="pub-badge">InPsychOut Blog</div>
+            <h3>The impact of adverse childhood experiences on college students (Ảnh hưởng của những trải nghiệm thời thơ ấu bất trắc đối với sinh viên trưởng thành)</h3>
+            <p class="authors"><strong>Writer:</strong> Vy Truc Le.</p>
+            <p class="blog-source">Source and copyright: InPsychOut.</p>
+            <div class="pub-links">
+              <a href="https://www.facebook.com/InPsychOut/posts/%E1%BA%A3nh-h%C6%B0%E1%BB%9Fng-c%E1%BB%A7a-nh%E1%BB%AFng-tr%E1%BA%A3i-nghi%E1%BB%87m-th%E1%BB%9Di-th%C6%A1-%E1%BA%A5u-b%E1%BA%A5t-tr%E1%BA%AFc-%C4%91%E1%BB%91i-v%E1%BB%9Bi-sinh-vi%C3%AAn-tr%E1%BB%9F-th%C3%A0nh/728471619280487/">read post</a>
+            </div>
+          </article>
+          <article class="blog-item" data-source="inpsychout" data-topic="aces">
+            <div class="blog-preview">
+              <iframe
+                title="InPsychOut Facebook post preview - Intergenerational ACEs"
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInPsychOut%2Fposts%2F730034242457558%2F&show_text=false&width=500"
+                loading="lazy"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+              </iframe>
+            </div>
+            <div class="pub-badge">InPsychOut Blog</div>
+            <h3>Can adverse childhood experiences have intergenerational effects? (Trải nghiệm thời thơ ấu bất trắc có thể ảnh hưởng xuyên thế hệ)</h3>
+            <p class="authors"><strong>Writer:</strong> Vy Truc Le.</p>
+            <p class="blog-source">Source and copyright: InPsychOut.</p>
+            <div class="pub-links">
+              <a href="https://www.facebook.com/InPsychOut/posts/tr%E1%BA%A3i-nghi%E1%BB%87m-th%E1%BB%9Di-th%C6%A1-%E1%BA%A5u-b%E1%BA%A5t-tr%E1%BA%AFc-c%C3%B3-th%E1%BB%83-%E1%BA%A3nh-h%C6%B0%E1%BB%9Fng-xuy%C3%AAn-th%E1%BA%BF-h%E1%BB%87gia-%C4%91%C3%ACnh-v%E1%BB%91n-d%C4%A9-%C4%91%C3%B3/730034242457558/">read post</a>
+            </div>
+          </article>
+          <article class="blog-item" data-source="inpsychout" data-topic="social">
+            <div class="blog-preview">
+              <iframe
+                title="InPsychOut Facebook post preview - Social media and body image"
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInPsychOut%2Fposts%2F754186686708980%2F&show_text=false&width=500"
+                loading="lazy"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+              </iframe>
+            </div>
+            <div class="pub-badge">InPsychOut Blog</div>
+            <h3>The influence of social media on body image (Ảnh hưởng của mạng xã hội đối với hình ảnh cơ thể)</h3>
+            <p class="authors"><strong>Writer:</strong> Vy Truc Le.</p>
+            <p class="blog-source">Source and copyright: InPsychOut.</p>
+            <div class="pub-links">
+              <a href="https://www.facebook.com/InPsychOut/posts/%E1%BA%A3nh-h%C6%B0%E1%BB%9Fng-c%E1%BB%A7a-m%E1%BA%A1ng-x%C3%A3-h%E1%BB%99i-%C4%91%E1%BB%91i-v%E1%BB%9Bi-h%C3%ACnh-%E1%BA%A3nh-c%C6%A1-th%E1%BB%83-h%C3%ACnh-%E1%BA%A3nh-c%C6%A1-th%E1%BB%83-l%C3%A0-h%C3%ACnh-%E1%BA%A3nh-%C4%91%C6%B0/754186686708980/">read post</a>
+            </div>
+          </article>
+          <article class="blog-item" data-source="tramdoc" data-topic="literature">
+            <div class="blog-preview">
+              <img
+                src="https://static.tramdoc.vn/image/img.news/0/0/0/6905.jpg?h=365&nocache=1&v=1&w=628"
+                alt="Biên sử nước article image from Trạm Đọc"
+                loading="lazy">
+            </div>
+            <div class="pub-badge">Trạm Đọc</div>
+            <h3>Biên sử nước: Trái tim đức ngài có thể giúp ta tái sinh lại một cuộc đời khác</h3>
+            <p class="authors"><strong>Writer:</strong> Vy Truc Le.</p>
+            <p class="blog-source">Source and copyright: Trạm Đọc.</p>
+            <div class="pub-links">
+              <a href="https://tramdoc.vn/tin-tuc/bien-su-nuoc-lieu-trai-tim-duc-ngai-co-the-giup-ta-tai-sinh-lai-mot-cuoc-doi-khac-nNlzeW.html">read article</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="publications" data-section="publications">
+        <div class="section-heading">
+          <div>
+            <h2>Publications</h2>
+            <p class="section-kicker">Published papers and selected manuscripts under review.</p>
+          </div>
+          <a href="#">BibTeX</a>
+        </div>
+        <div class="publication-filter-panel" aria-label="Publication filters">
+          <div class="publication-filter-group">
+            <span>Type</span>
+            <button class="filter-button active" type="button" data-filter-group="type" data-filter="all">all</button>
+            <button class="filter-button" type="button" data-filter-group="type" data-filter="journal">journal</button>
+            <button class="filter-button" type="button" data-filter-group="type" data-filter="conference">conference</button>
+            <button class="filter-button" type="button" data-filter-group="type" data-filter="manuscript">manuscript</button>
+          </div>
+          <div class="publication-filter-group">
+            <span>Year</span>
+            <button class="filter-button active" type="button" data-filter-group="year" data-filter="all">all</button>
+            <button class="filter-button" type="button" data-filter-group="year" data-filter="2025">2025</button>
+            <button class="filter-button" type="button" data-filter-group="year" data-filter="2024">2024</button>
+            <button class="filter-button" type="button" data-filter-group="year" data-filter="2023">2023</button>
+          </div>
+          <div class="publication-filter-group">
+            <span>Role</span>
+            <button class="filter-button active" type="button" data-filter-group="role" data-filter="all">all</button>
+            <button class="filter-button" type="button" data-filter-group="role" data-filter="corresponding">corresponding author</button>
+          </div>
+        </div>
+        <p class="publication-note">* Corresponding author.</p>
+        <div class="publication-years">
+          <section class="publication-year" data-year-group>
+            <h3 class="year-heading">2025</h3>
+            <ol class="publication-list">
+              <li class="publication-item" data-type="manuscript" data-year="2025" data-role="">
+                <article>
+                  <div class="pub-badge">Under review</div>
+                  <h3>The Moderating Role of Time Spent on Social Media and Residence of College Students on the Relationship between Adverse Childhood Experiences, Body Image Flexibility, and Openness to Psychological Professional Help</h3>
+                  <p class="authors"><strong>Le, V. T.</strong> and coauthors.</p>
+                  <p class="venue">Under review, Bangladesh Journal of Multidisciplinary Scientific Research.</p>
+                  <p class="keywords"><strong>Keywords:</strong> adverse childhood experiences; body image flexibility; professional help-seeking; social media; residence.</p>
+                </article>
+              </li>
+              <li class="publication-item" data-type="journal" data-year="2025" data-role="">
+                <article>
+                  <div class="pub-badge">Journal</div>
+                  <h3>The mediating role of psychological flexibility in the relationship between adverse childhood experiences and symptoms of depression, anxiety, and stress among Vietnamese college students</h3>
+                  <p class="authors">Vu, T. V., Nguyen-Duong, B., Le, H. T. T., Van Nguyen, T., & <strong>Le, V. T.</strong></p>
+                  <p class="venue">Discover Mental Health, 5(1), 168, 2025.</p>
+                  <p class="keywords"><strong>Keywords:</strong> adverse childhood experiences; psychological flexibility; depression; anxiety; stress; college students.</p>
+                  <div class="pub-links">
+                    <a href="publications/psychological-flexibility-aces-2025.pdf">pdf</a>
+                    <a href="https://doi.org/10.1007/s44192-025-00293-4">doi</a>
+                  </div>
+                </article>
+              </li>
+              <li class="publication-item" data-type="journal" data-year="2025" data-role="corresponding">
+                <article>
+                  <div class="pub-badge">Journal *</div>
+                  <h3>The role of perfectionism in the relationship between adverse childhood experiences, symptoms of depression, and life satisfaction among Vietnamese adults</h3>
+                  <p class="authors">Nguyen, T. T., Huynh, V. S., Nguyen, T. H., <strong>Le, T. V.</strong>, Luu, K., Truong, T.-K., Nguyen, T. T. T., & Tran-Chi, V.-L.</p>
+                  <p class="venue">Journal of Health and Social Sciences, 10(2), 216-238, 2025.</p>
+                  <p class="keywords"><strong>Keywords:</strong> perfectionism; adverse childhood experiences; depression; life satisfaction; Vietnamese adults.</p>
+                  <div class="pub-links">
+                    <a href="publications/perfectionism-aces-life-satisfaction-2025.pdf">pdf</a>
+                    <a href="https://doi.org/10.19204/2025/THRL7">doi</a>
+                  </div>
+                </article>
+              </li>
+              <li class="publication-item" data-type="journal" data-year="2025" data-role="corresponding">
+                <article>
+                  <div class="pub-badge">Journal *</div>
+                  <h3>Vietnamese religiosity, premarital sexual permissiveness, and abortion attitudes: the mediating role of filial piety</h3>
+                  <p class="authors">Nguyen, P., Nguyen, V. H. A., Truong, T., Nguyen, T., Luu, K., <strong>Le, V. T.</strong>, Nguyen-Thi, N., Chu-Nguyen, Y., Nguyen, L. T., & Tran-Chi, V.</p>
+                  <p class="venue">Discover Mental Health, 5(1), 10, 2025.</p>
+                  <p class="keywords"><strong>Keywords:</strong> religiosity; premarital sexual permissiveness; abortion attitudes; filial piety; Vietnam.</p>
+                  <div class="pub-links">
+                    <a href="publications/religiosity-filial-piety-2025.pdf">pdf</a>
+                    <a href="https://doi.org/10.1007/s44192-025-00134-4">doi</a>
+                  </div>
+                </article>
+              </li>
+            </ol>
+          </section>
+
+          <section class="publication-year" data-year-group>
+            <h3 class="year-heading">2024</h3>
+            <ol class="publication-list">
+              <li class="publication-item" data-type="manuscript" data-year="2024" data-role="">
+                <article>
+                  <div class="pub-badge">Preprint</div>
+                  <h3>Psychological Difficulties and the Needs for Counseling Services in High School Students</h3>
+                  <p class="authors">Cong Minh Le, Son-Van Huynh, Vu Hoang Anh Nguyen, <strong>Vy Truc Le</strong>, and coauthors.</p>
+                  <p class="venue">Research Square, version 1, 2024. Status: under review.</p>
+                  <p class="keywords"><strong>Keywords:</strong> psychological difficulties; counseling needs; high school students; mental health services.</p>
+                  <div class="pub-links">
+                    <a href="https://www.researchsquare.com/article/rs-4408006/v1">preprint</a>
+                    <a href="https://doi.org/10.21203/rs.3.rs-4408006/v1">doi</a>
+                  </div>
+                </article>
+              </li>
+              <li class="publication-item" data-type="journal" data-year="2024" data-role="">
+                <article>
+                  <div class="pub-badge">Journal</div>
+                  <h3>Psychological difficulties and the needs for psychological services for high school students</h3>
+                  <p class="authors">Le, C. M., Huynh, S., Nguyen, V. H. A., <strong>Le, V. T.</strong>, Luu-Thi, H., & Tran-Chi, V.</p>
+                  <p class="venue">Discover Mental Health, 4(1), 2024.</p>
+                  <p class="keywords"><strong>Keywords:</strong> psychological difficulties; psychological services; high school students; counseling.</p>
+                  <div class="pub-links">
+                    <a href="publications/psychological-difficulties-services-2024.pdf">pdf</a>
+                    <a href="https://doi.org/10.1007/s44192-024-00101-5">doi</a>
+                  </div>
+                </article>
+              </li>
+              <li class="publication-item" data-type="journal" data-year="2024" data-role="corresponding">
+                <article>
+                  <div class="pub-badge">Journal *</div>
+                  <h3>The Relationship between Academic Performance, Peer Pressure, and Educational Stress as It Relates to High School Students' Openness to Seeking Professional Psychological Help</h3>
+                  <p class="authors">Nguyen-Thi, H. P., Truong, A. N., <strong>Le, V. T.</strong>, Nguyen, X. T. K., & Tran-Chi, V.</p>
+                  <p class="venue">Journal of Curriculum and Teaching, 13(1), 83, 2024.</p>
+                  <p class="keywords"><strong>Keywords:</strong> academic performance; peer pressure; educational stress; help-seeking; adolescents.</p>
+                  <div class="pub-links">
+                    <a href="publications/academic-performance-peer-pressure-educational-stress-2024.pdf">pdf</a>
+                    <a href="https://doi.org/10.5430/jct.v13n1p83">doi</a>
+                  </div>
+                </article>
+              </li>
+            </ol>
+          </section>
+
+          <section class="publication-year" data-year-group>
+            <h3 class="year-heading">2023</h3>
+            <ol class="publication-list">
+              <li class="publication-item" data-type="conference" data-year="2023" data-role="">
+                <article>
+                  <div class="pub-badge">Conference</div>
+                  <h3>The relationship between peer pressure, educational stress, and adolescents' willingness to seek professional psychological help</h3>
+                  <p class="authors"><strong>Vy Truc Le</strong> and coauthors.</p>
+                  <p class="venue">2023 Mental Health Research Conference & the Network in Education and Training in Mental Health Meeting, Chiang Mai University, Thailand, Mar 31, 2023.</p>
+                  <p class="keywords"><strong>Keywords:</strong> peer pressure; educational stress; adolescents; professional psychological help; conference.</p>
+                  <div class="pub-links">
+                    <a href="mhrc-2023-flyer.jpg">conference flyer</a>
+                  </div>
+                </article>
+              </li>
+            </ol>
+          </section>
+        </div>
+      </section>
+
+      <section class="section" id="metrics" data-section="metrics">
+        <div class="section-heading">
+          <div>
+            <h2>Metrics</h2>
+            <p class="section-kicker">Research visibility across academic profiles.</p>
+          </div>
+          <a href="#">updated May 2026</a>
+        </div>
+        <div class="metrics-grid">
+          <article class="metric-panel">
+            <div class="metric-source">Google Scholar</div>
+            <div class="metric-table" aria-label="Google Scholar metrics">
+              <div class="metric-table-head"><span></span><strong>All</strong><strong>Since 2021</strong></div>
+              <div class="metric-table-row"><span>Citations</span><strong>31</strong><strong>31</strong></div>
+              <div class="metric-table-row"><span>h-index</span><strong>2</strong><strong>2</strong></div>
+              <div class="metric-table-row"><span>i10-index</span><strong>1</strong><strong>1</strong></div>
+            </div>
+            <a class="metric-link" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=Vy+Truc+Le">view profile</a>
+          </article>
+          <article class="metric-panel">
+            <div class="metric-source">ResearchGate</div>
+            <div class="metric-row"><span>Publications</span><strong>6</strong></div>
+            <div class="metric-row"><span>Reads</span><strong>56,649</strong></div>
+            <div class="metric-row"><span>Citations</span><strong>26</strong></div>
+            <a class="metric-link" href="https://www.researchgate.net/profile/Vy-Le-121">view profile</a>
+          </article>
+          <article class="metric-panel">
+            <div class="metric-source">Research Output</div>
+            <div class="metric-row"><span>Listed works</span><strong>8</strong></div>
+            <div class="metric-row"><span>Journal articles</span><strong>5</strong></div>
+            <div class="metric-row"><span>Preprint / conference / under review</span><strong>3</strong></div>
+            <a class="metric-link" href="#publications" data-page="publications">view publications</a>
+          </article>
+          <article class="metric-panel">
+            <div class="metric-source">Research & Clinical Training</div>
+            <div class="metric-row"><span>Research assistant experience</span><strong>4y</strong></div>
+            <div class="metric-row"><span>Clinical experience</span><strong>2y</strong></div>
+            <div class="metric-row"><span>Supervised counseling hours</span><strong>331.5</strong></div>
+            <a class="metric-link" href="#cv" data-page="cv">view CV</a>
+          </article>
+        </div>
+
+        <div class="section-heading footprint-heading">
+          <div>
+            <h2>Footprint</h2>
+            <p class="section-kicker">Research travel, talks, visits, and collaborations.</p>
+          </div>
+          <a href="#">academic footprint</a>
+        </div>
+        <div class="footprint-layout">
+          <div class="map-card" aria-label="Research footprint map">
+            <div id="footprint-map"></div>
+          </div>
+          <ul class="travel-list">
+            <li><strong>Ca Mau</strong><span>Born and raised.</span></li>
+            <li><strong>Vinh Long</strong><span>Academic workshop.</span></li>
+            <li><strong>Kien Giang</strong><span>High school competitions.</span></li>
+            <li><strong>Ho Chi Minh City</strong><span>B.A. in Psychology, Ho Chi Minh City University of Education.</span></li>
+            <li><strong>Can Tho</strong><span>Travel and leisure.</span></li>
+            <li><strong>Da Lat</strong><span>Travel and leisure.</span></li>
+            <li><strong>Italy</strong><span>Master's program in Psychology, Neuroscience, and Human Sciences.</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="cv" data-section="cv">
+        <div class="section-heading">
+          <div>
+            <h2>CV</h2>
+            <p class="section-kicker">A concise academic record for quick scanning.</p>
+          </div>
+          <a href="CV.pdf">download PDF</a>
+        </div>
+        <div class="pdf-viewer" aria-label="Embedded CV PDF">
+          <object data="CV.pdf" type="application/pdf">
+            <p>
+              Your browser cannot display the embedded PDF.
+              <a href="CV.pdf">Download the CV PDF</a>.
+            </p>
+          </object>
+        </div>
+        <div class="cv-list">
+          <article>
+            <h3>General Information</h3>
+            <p><strong>Truc Vy Le</strong></p>
+            <p>Ho Chi Minh City, Vietnam, 700000.</p>
+            <p>vytrucle.judy@gmail.com</p>
+            <p>Research interests: adverse childhood experiences, mental health, cognitive functioning, and clinical neuropsychology.</p>
+          </article>
+          <article>
+            <h3>Education</h3>
+            <div class="cv-entry">
+              <div class="cv-time">Oct 2020 - Jun 2024<span>Ho Chi Minh City, Vietnam</span></div>
+              <div>
+                <p><strong>B.A. in Psychology</strong>, <a class="academic-link" href="https://hcmue.edu.vn/en/">Ho Chi Minh City University of Education</a>.</p>
+                <p>Advisors: Ph.D. Vinh-Long Tran-Chi and M.Sc. Hoai Duc Huynh Tran.</p>
+                <p>Thesis: Attitudes Toward Seeking Professional Psychological Help Among Students with Adverse Childhood Experiences in Ho Chi Minh City (9/10).</p>
+              </div>
+            </div>
+            <div class="cv-entry">
+              <div class="cv-time">Aug 2017 - Jul 2020<span>Ca Mau, Vietnam</span></div>
+              <div>
+                <p><strong>Phan Ngoc Hien High School for the Gifted</strong>, Specialized in Literature.</p>
+              </div>
+            </div>
+          </article>
+          <article>
+            <h3>Experience</h3>
+            <div class="cv-entry">
+              <div class="cv-time">Apr 2026 - Present</div>
+              <div>
+                <p><strong>Research Assistant (Quantitative Fieldwork)</strong>, <a class="academic-link" href="https://depocen.org/en/about/">Development and Policies Research Center (DEPOCEN)</a>.</p>
+                <p>Contract position supporting quantitative fieldwork activities.</p>
+              </div>
+            </div>
+            <div class="cv-entry">
+              <div class="cv-time">May 2022 - Apr 2026</div>
+              <div>
+                <p><strong>Research Assistant</strong>, <span class="org-name">TCVL Lab</span>.</p>
+                <p>Contributed to study design, data collection, statistical analysis, manuscript preparation, and undergraduate student mentoring.</p>
+              </div>
+            </div>
+            <div class="cv-entry">
+              <div class="cv-time">Jun 2024 - Jun 2025</div>
+              <div>
+                <p><strong>Counseling and Psychotherapy Trainee</strong>, <a class="academic-link" href="https://tamlyhoasung.com/">Hoa Sung Psychology Consultation Company Limited</a>.</p>
+                <p>Received CBT and counseling training; supported students with stress, depression, and anxiety; conducted DASS-21 assessments and suicide risk identification.</p>
+              </div>
+            </div>
+            <div class="cv-entry">
+              <div class="cv-time">Jan 2023 - Feb 2024</div>
+              <div>
+                <p><strong>Clinical Psychology Intern</strong>, <span class="org-name">Ho Chi Minh City Regional Center of Forensic Psychiatry</span>.</p>
+                <p>Trained in psychological assessment tools including HDRS, RADS, HAMA, YMRS, WMS, Raven's Progressive Matrices, MMPI, VADRS, and CARS.</p>
+              </div>
+            </div>
+            <div class="cv-entry">
+              <div class="cv-time">Mar 2022 - Mar 2024</div>
+              <div>
+                <p><strong>Psychology Academic Content Leader</strong>, <a class="academic-link" href="https://www.facebook.com/InPsychOut">InPsychOut Company Limited</a>.</p>
+                <p>Directed content teams and developed academic psychology content for community mental health awareness.</p>
+              </div>
+            </div>
+          </article>
+          <article>
+            <h3>Volunteer</h3>
+            <p><strong><a class="academic-link" href="https://tamlyhoasung.com/vi/alo-hoa-sung">Alo! Hoa Súng lắng nghe</a></strong>, <a class="academic-link" href="https://tamlyhoasung.com/">Hoa Sung Psychology Consultation Company Limited</a>.</p>
+            <p>Participated in a community-based psychological counseling project supporting people experiencing mental health difficulties who needed accessible care at a small fee.</p>
+          </article>
+          <article>
+            <h3>Academic Activities and Professional Service</h3>
+            <p>Invited reviewer for <em>Social Sciences & Humanities Open</em>, <em>Electronic Journal of Research in Educational Psychology</em>, <em>Discover Psychology</em>, <em>BMC Psychology</em>, and <em>International Journal of Mental Health Promotion</em>.</p>
+          </article>
+          <article>
+            <h3>Grants and Fellowships</h3>
+            <div class="cv-entry">
+              <div class="cv-time">2018-2020</div>
+              <div>
+                <p><strong>Incentive for Participation and Awards in High School Olympiads</strong> - $1000 estimated total value.</p>
+              </div>
+            </div>
+          </article>
+          <article>
+            <h3>Awards</h3>
+            <div class="cv-entry">
+              <div class="cv-time">2020-2024</div>
+              <div>
+                <h4 class="cv-entry-heading">B.A. Program</h4>
+                <ul class="cv-bullets">
+                  <li><strong>Very Good Graduate</strong> of the B.A. Program.</li>
+                  <li>Selected among the top 10% of students in the cohort, based on GPA, to complete an undergraduate thesis.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="cv-entry">
+              <div class="cv-time">2018-2020</div>
+              <div>
+                <h4 class="cv-entry-heading">High School</h4>
+                <ul class="cv-bullets">
+                  <li><strong>Second Prize</strong>, Science and Engineering Competition 2020, Social Sciences and Humanities field, for the research project "Cyberbullying Among Middle and High School Students".</li>
+                  <li><strong>Provincial Excellent Student Competition</strong>: First Prize in History field, 2018; Third Prize in History field, 2019.</li>
+                  <li><strong>April 30th Olympic</strong>: Bronze Medal in History field, 2018.</li>
+                  <li><strong>Summer Olympic in the Mekong Delta</strong>: Gold Medal in History field, 2018.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          <article>
+            <h3>Selected Certificates</h3>
+            <div class="cv-entry"><div class="cv-time">Mar 2026</div><div><p>IELTS 6.0 Overall.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Jun 2024 - Jun 2025</div><div><p>331.5 total hours of supervised therapeutic counseling practice, <a class="academic-link" href="https://tamlyhoasung.com/">Hoa Sung Psychology Consultation Company Limited</a>.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Jan 2023 - Apr 2024</div><div><p>15-month clinical psychology internship certificate, Ho Chi Minh City Regional Center of Forensic Psychiatry.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Jan 2024</div><div><p>TOEIC 625.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Jun 2023</div><div><p>CBT in Counseling and Psychotherapy Practice, HUTECH.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Mar 2023</div><div><p>Basic Statistics in Social Science and Educational Science Research, The University of Danang.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Jan 2023</div><div><p>Psychology and Psychotherapy of Alfred Adler, VnPA.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Nov 2022</div><div><p>Acceptance and Commitment Therapy (ACT) for Children and Adolescents, APPEA, France.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Jul 2022</div><div><p>Applied Positive Psychology, VnPA.</p></div></div>
+          </article>
+          <article>
+            <h3>References</h3>
+            <p><strong>Ph.D. Vinh-Long Tran-Chi</strong>, University of Health Sciences, Vietnam National University Ho Chi Minh City; National University of Singapore. tcvlong@uhsvnu.edu.vn</p>
+            <p><strong>M.Sc. Hoai Duc Huynh Tran</strong>, Ho Chi Minh City University of Education. duchth@hcmue.edu.vn</p>
+            <p><strong>M.A. Le Thi Minh Tam</strong>, Hoa Sung Psychology Consultation Company Limited. tam.le@tamlyhoasung.com</p>
+            <p><strong>M.A. Truong Thi Hoa</strong>, Ho Chi Minh City Regional Center of Forensic Psychiatry. Hienhoa151283@gmail.com</p>
+          </article>
+          <article>
+            <h3>Interests</h3>
+            <p>Adverse childhood experiences, cognitive functioning, mental health, psychological assessment, counseling, and clinical neuropsychology.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Truc Vy Le. Academic profile inspired by the al-folio layout.</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
